@@ -1,0 +1,51 @@
+/* Home Page Styling */
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: #A7C7E7;
+    color: white;
+    padding: 60px 20px;
+    border-radius: 15px;
+  }
+  
+  .hero-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons button {
+    margin: 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Features Section */
+  .features-section {
+    margin-top: 50px;
+  }
+  
+  .feature-card {
+    text-align: center;
+    padding: 20px;
+    background: #FAF3E0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #A7C7E7 !important;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: none;
+  margin: 0 auto; /* make sure it doesn't center */
+  padding-left: 16px; /* optional */
+  box-sizing: border-box;
+}
+
+
+.left-options {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.left-options.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.left-options button {
+  margin: 5px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-start; /* 👈 aligns left */
+  align-items: center;
+  gap: 10px;
+}

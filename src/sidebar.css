@@ -1,0 +1,46 @@
+/* Sidebar Styling */
+.sidebar {
+  width: 200px;
+  background-color: #A7C7E7;
+  color: white;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Let it match content */
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/* Sidebar Links */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 15px;
+  text-align: center;
+}
+
+.sidebar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  transition: background 0.3s ease-in-out;
+}
+
+.sidebar li a:hover {
+  background-color: #4b77a3;
+  border-radius: 5px;
+}
+.sidebar {
+  transform: translateX(-30px);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.sidebar.slide-in {
+  transform: translateX(0);
+  opacity: 1;
+}
